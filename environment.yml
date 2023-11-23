@@ -1,0 +1,50 @@
+name: car
+
+channels:
+  - pytorch
+  - nvidia
+  - pytorch3d
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch==2.0.*
+  - torchvision==0.15.*
+  - pytorch-cuda=11.8
+  - pytorch3d
+  - imageio
+  - imageio[ffmpeg]
+  - tqdm
+  - scipy
+  - tensorboardX
+  - rtree
+  - rich
+  - pyembree
+  - transformers
+  - diffusers
+  - accelerate
+  - trimesh
+  - pyrender
+  - easydict
+  - yacs
+  - fvcore
+  - iopath
+  - ninja
+  - timm
+  
+  - pip:
+    - git+https://github.com/NVlabs/nvdiffrast.git
+    - dearpygui
+    - mediapipe
+    - opencv-python
+    - pymeshlab
+    - pyopengl==3.1.4
+    - torch-ema
+    - xatlas
+    - chumpy==0.70
+    - vit_pytorch==0.26.3
+    - uarray==0.6.0
+    - h5py==3.6.0
+    - scikit-image==0.16.2
