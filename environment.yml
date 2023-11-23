@@ -13,12 +13,12 @@ dependencies:
   - pytorch==2.0.*
   - torchvision==0.15.*
   - pytorch-cuda=11.8
+  - pytorch-lightning
   - pytorch3d
   - imageio
   - imageio[ffmpeg]
   - tqdm
   - scipy
-  - tensorboardX
   - rtree
   - rich
   - pyembree
@@ -33,7 +33,8 @@ dependencies:
   - iopath
   - ninja
   - timm
-  
+  - tensorboard
+
   - pip:
     - git+https://github.com/NVlabs/nvdiffrast.git
     - dearpygui
@@ -48,3 +49,4 @@ dependencies:
     - uarray==0.6.0
     - h5py==3.6.0
     - scikit-image==0.16.2
+    - smplx
