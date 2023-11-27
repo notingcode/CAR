@@ -23,7 +23,7 @@ net:
   lambda_grad: 0.1
   loss_type: ['igr_sdf', 'gradient', 'normal']
   use_filter: True
-  use_normal: True
+  # use_normal: True
   num_stack: 1
 
 # user defined

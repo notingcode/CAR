@@ -1,8 +1,8 @@
 name: Ours
 sdf: True
 training:
-  gpus: [1]
-  test_gpus: [1]
+  gpus: [0]
+  test_gpus: [0]
   thresh: 0.
 net:
   geometric_init: True

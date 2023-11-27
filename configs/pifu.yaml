@@ -2,8 +2,8 @@ name: pifu
 sdf: False
 training:
   data_name: 'thuman'
-  gpus: [3]
-  test_gpus: [3]
+  gpus: [0]
+  test_gpus: [0]
   thresh: 0.5
   freq_show_train: 0.03
   freq_show_val: 0.03

@@ -1,8 +1,8 @@
 name: arch
 sdf: False
 training:
-  gpus: [2]
-  test_gpus: [2]
+  gpus: [0]
+  test_gpus: [0]
   thresh: 0.5
 net:
   geometric_init: False
