@@ -1,2 +1,7 @@
 .vscode
 data
+examples/results
+examples/smpl
+**__pycache__**
+smpl/dist
+smpl/smpl.egg-info/PKG-INFO
