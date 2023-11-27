@@ -37,6 +37,7 @@ dependencies:
 
   - pip:
     - git+https://github.com/NVlabs/nvdiffrast.git
+    - git+https://github.com/Project-Splinter/human_det --upgrade
     - dearpygui
     - mediapipe
     - opencv-python
